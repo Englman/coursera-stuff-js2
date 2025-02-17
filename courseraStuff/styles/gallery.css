@@ -1,0 +1,13 @@
+.gallery img{
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    cursor: pointer;
+    outline: none;
+    transition: transform 0.2s ease-in-out;
+}
+
+.gallery img.hovered, .gallery img.tabfocus{
+    transform: scale(1.1);
+    border: 2px solid #ff6600;
+}
